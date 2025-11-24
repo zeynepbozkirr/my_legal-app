@@ -1,70 +1,139 @@
 // app/terms-of-use/page.tsx
-'use client'
 
 export default function TermsOfUsePage() {
   return (
     <main className="max-w-3xl mx-auto py-10 px-4 leading-relaxed">
       <h1 className="text-3xl font-bold mb-6">Kullanım Koşulları</h1>
 
-      <p>
-        Bu Kullanım Koşulları, <strong>CALORIA</strong> tarafından sunulan
-        hizmetlerin kullanımına ilişkin kuralları belirler. Uygulamayı
-        kullanarak bu koşulları kabul etmiş olursunuz.
+      <p className="mb-4">
+        Bu Kullanım Koşulları (“Koşullar”), <strong>CALORIA</strong> mobil
+        uygulamasının kullanımına ilişkin şartları düzenlemektedir. Uygulamayı
+        kullanarak bu Koşullar’ı okuduğunuzu, anladığınızı ve kabul ettiğinizi
+        beyan etmiş olursunuz.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">1. Hizmetin Tanımı</h2>
-      <p>
-        Uygulama; beslenme kaydı, aktivite takibi, hedef belirleme, su tüketimi,
-        günlük kalori ihtiyacı hesaplama ve grafiksel analiz gibi fonksiyonlar
-        sunar. Uygulama tıbbi tavsiye niteliği taşımaz.
+      <p className="mb-4">
+        Uygulama; kullanıcıların beslenme, aktivite, su tüketimi ve benzeri
+        günlük alışkanlıklarını takip etmelerine, hedef belirlemelerine ve bu
+        hedeflere ilişkin grafikler ve istatistikler görmelerine yardımcı olmak
+        amacıyla tasarlanmıştır. Uygulama herhangi bir tıbbi teşhis veya tedavi
+        hizmeti sunmaz.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
-        2. Kullanıcı Yükümlülükleri
+        2. Uygulamanın Kullanımına İlişkin Genel Kurallar
       </h2>
-      <ul className="list-disc ml-6 my-3">
-        <li>Verdiği bilgilerin doğruluğundan kullanıcı sorumludur.</li>
-        <li>Hesap erişim bilgilerinin güvenliği kullanıcıya aittir.</li>
-        <li>Uygulama kötüye kullanılamaz.</li>
+      <ul className="list-disc ml-6 mb-4">
+        <li>Uygulama kişisel kullanım içindir, ticari amaçla kullanılamaz.</li>
+        <li>
+          Kullanıcı, uygulama üzerinden sağladığı bilgilerin doğru ve güncel
+          olmasından sorumludur.
+        </li>
+        <li>
+          Kullanıcı, hesabına ait giriş bilgilerini (örneğin e-posta erişimini)
+          korumakla yükümlüdür.
+        </li>
+        <li>
+          Uygulama; spam, saldırı, zararlı yazılım, yasa dışı içerik paylaşımı
+          gibi kötüye kullanım amaçlı kullanılamaz.
+        </li>
       </ul>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
-        3. Verilerin İşlenmesi
+        3. Hesap Oluşturma ve Erişim
       </h2>
-      <p>
-        Kullanıcı tarafından sağlanan veriler yalnızca uygulama özelliklerinin
-        çalışması için işlenir ve Firebase üzerinde güvenli şekilde saklanır.
+      <p className="mb-4">
+        Uygulamanın belirli özelliklerinden yararlanmak için kullanıcıların
+        e-posta adresleriyle giriş yapmaları gerekebilir. Kullanıcı, kendi
+        hesabıyla yapılan tüm işlemlerden sorumlu olduğunu kabul eder.
       </p>
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">4. Bildirimler</h2>
-      <p>
-        Kullanıcı bildirim izni verdiğinde hatırlatma ve günlük uyarılar
-        gönderilebilir. Bildirimler cihaz ayarlarından kapatılabilir.
+      <h2 className="text-xl font-semibold mt-6 mb-2">
+        4. Kişisel Veriler ve Gizlilik
+      </h2>
+      <p className="mb-4">
+        Kullanıcıların kişisel verileri; Gizlilik Politikası & KVKK Aydınlatma
+        Metni’ne uygun olarak işlenir. Uygulamayı kullanarak, kişisel
+        verilerinizin söz konusu metinde açıklanan amaçlar ve hukuki sebepler
+        çerçevesinde işlenmesini kabul etmiş olursunuz.
       </p>
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">5. Hesap Silme</h2>
-      <p>
-        Uygulamada şu anda doğrudan hesap silme özelliği bulunmamaktadır.
-        Kullanıcı, verilerinin ve hesabının silinmesi için e-posta yoluyla
-        talepte bulunabilir.
+      <h2 className="text-xl font-semibold mt-6 mb-2">
+        5. Bildirimler (Push Notifications)
+      </h2>
+      <p className="mb-4">
+        Uygulama, hatırlatma ve bilgilendirme amaçlı bildirimler gönderebilir.
+        Bildirim izni vermeniz hâlinde, bu bildirimler cihazınıza iletilir.
+        Bildirim iznini cihaz ayarlarınız üzerinden dilediğiniz zaman
+        kapatabilirsiniz.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">6. Sorumluluk Reddi</h2>
-      <p>
-        Uygulama tıbbi bir cihaz değildir ve sağlık tavsiyesi sunmaz.
-        Hesaplamalar yalnızca bilgilendirme amaçlıdır. Sağlık kararları için
-        profesyonel destek alınmalıdır.
+      <p className="mb-4">
+        Uygulama; beslenme, aktivite ve benzeri konularda yalnızca kişisel takip
+        ve bilgilendirme amaçlıdır. Uygulama, tıbbi bir cihaz veya sağlık
+        hizmeti sağlayıcısı değildir. Uygulama üzerinden elde edilen bilgi ve
+        çıktılar, tıbbi tavsiye niteliği taşımaz. Sağlık durumunuza ilişkin
+        kararlar için mutlaka doktor veya sağlık profesyoneline danışmanız
+        gerekmektedir.
       </p>
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">7. Değişiklikler</h2>
-      <p>
-        Bu metin gerektiğinde güncellenebilir. Güncellemeler uygulama veya web
-        sitesi üzerinden duyurulur.
+      <h2 className="text-xl font-semibold mt-6 mb-2">
+        7. Hizmette Değişiklik ve Kesinti
+      </h2>
+      <p className="mb-4">
+        Geliştirici, uygulamanın tamamını veya bir kısmını önceden haber
+        vermeksizin değiştirme, durdurma veya sonlandırma hakkını saklı tutar.
+        Uygulamanın kesintisiz veya hatasız çalışacağına dair herhangi bir
+        garanti verilmemektedir.
       </p>
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">8. İletişim</h2>
-      <p>
-        Soru ve talepler için: <strong>onivasoftware@gmail.com</strong>
+      <h2 className="text-xl font-semibold mt-6 mb-2">
+        8. Hesap Silme ve Verilerin Silinmesi
+      </h2>
+      <p className="mb-4">
+        Uygulamada şu anda doğrudan “Hesabımı Sil” özelliği bulunmamaktadır.
+        Kullanıcılar, hesaplarının ve kişisel verilerinin silinmesini talep
+        etmek için <strong>onivasoftware@gmail.com</strong> üzerinden bizimle
+        iletişime geçebilir. Talep üzerine veriler makul süre içerisinde kalıcı
+        olarak silinir.
+      </p>
+
+      {/* <h2 className="text-xl font-semibold mt-6 mb-2">
+        9. Fikri Mülkiyet Hakları
+      </h2>
+      <p className="mb-4">
+        Uygulama içerisinde yer alan tüm tasarım, logo, marka, metin, görsel ve
+        yazılım unsurları, aksi belirtilmedikçe{' '}
+        <strong>[Şirket Adı / Geliştirici Adı]</strong>’na aittir. Bu içerikler
+        izinsiz olarak kopyalanamaz, çoğaltılamaz veya ticari amaçla
+        kullanılamaz.
+      </p> */}
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">
+        9. Koşullarda Değişiklik
+      </h2>
+      <p className="mb-4">
+        Bu Kullanım Koşulları, gerektiğinde güncellenebilir. Güncellemeler
+        uygulama veya web sitesi üzerinden duyurulur. Uygulamayı kullanmaya
+        devam etmeniz, güncellenen koşulları kabul ettiğiniz anlamına gelir.
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">
+        10. Uygulanacak Hukuk ve Yetkili Mahkeme
+      </h2>
+      <p className="mb-4">
+        Bu Koşullar, Türkiye Cumhuriyeti kanunlarına tabidir. Koşullardan
+        doğabilecek uyuşmazlıklarda,{' '}
+        <strong>İzmir Mahkemeleri ve İcra Daireleri</strong> yetkilidir.
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">11. İletişim</h2>
+      <p className="mb-4">
+        Bu Koşullar ile ilgili her türlü soru ve talebiniz için bizimle şu
+        adresten iletişime geçebilirsiniz:{' '}
+        <strong>onivasoftware@gmail.com</strong>
       </p>
     </main>
   )
