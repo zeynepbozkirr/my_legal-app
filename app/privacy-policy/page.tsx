@@ -9,12 +9,12 @@ export default function PrivacyPolicyPage() {
 
       <p className="mb-4">
         Bu Gizlilik Politikası ve KVKK Aydınlatma Metni (“Metin”),{' '}
-        <strong>CALORIA</strong> tarafından sunulan mobil uygulama hizmetleri
-        kapsamında işlenen kişisel verilerin, 6698 sayılı Kişisel Verilerin
-        Korunması Kanunu (“KVKK”) ve ilgili mevzuata uygun olarak nasıl
-        toplandığını, işlendiğini, saklandığını ve korunduğunu açıklamak
-        amacıyla hazırlanmıştır. Uygulamayı kullanarak bu Metin’de yer alan
-        hükümleri kabul etmiş olursunuz.
+        <strong>Caloria—Sağlıklı Yaşam & Takip</strong> tarafından sunulan mobil
+        uygulama hizmetleri kapsamında işlenen kişisel verilerin, 6698 sayılı
+        Kişisel Verilerin Korunması Kanunu (“KVKK”) ve ilgili mevzuata uygun
+        olarak nasıl toplandığını, işlendiğini, saklandığını ve korunduğunu
+        açıklamak amacıyla hazırlanmıştır. Uygulamayı kullanarak bu Metin’de yer
+        alan hükümleri kabul etmiş olursunuz.
       </p>
 
       {/* <h2 className="text-xl font-semibold mt-6 mb-2">1. Veri Sorumlusu</h2> */}

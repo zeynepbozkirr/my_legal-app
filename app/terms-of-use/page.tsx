@@ -6,10 +6,11 @@ export default function TermsOfUsePage() {
       <h1 className="text-3xl font-bold mb-6">Kullanım Koşulları</h1>
 
       <p className="mb-4">
-        Bu Kullanım Koşulları (“Koşullar”), <strong>CALORIA</strong> mobil
-        uygulamasının kullanımına ilişkin şartları düzenlemektedir. Uygulamayı
-        kullanarak bu Koşullar’ı okuduğunuzu, anladığınızı ve kabul ettiğinizi
-        beyan etmiş olursunuz.
+        Bu Kullanım Koşulları (“Koşullar”),{' '}
+        <strong>Caloria—Sağlıklı Yaşam & Takip</strong> mobil uygulamasının
+        kullanımına ilişkin şartları düzenlemektedir. Uygulamayı kullanarak bu
+        Koşullar’ı okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan etmiş
+        olursunuz.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">1. Hizmetin Tanımı</h2>
